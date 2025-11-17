@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
@@ -10,7 +10,7 @@ import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import { Star, Crown, Award, MapPin, Sparkles, Concierge, MessageSquare, HelpCircle, Newspaper, Phone, Instagram, Facebook, Twitter } from "lucide-react";
+import { Star, Crown, Award, MapPin, Sparkles, MessageSquare, HelpCircle, Newspaper, Phone, Instagram, Facebook, Twitter } from "lucide-react";
 
 export default function Home() {
   return (
@@ -125,7 +125,6 @@ export default function Home() {
           title="Exceptional Services & Amenities"
           description="Discover our comprehensive range of premium services designed to exceed your expectations"
           tag="Services"
-          tagIcon={Concierge}
           textboxLayout="default"
           animationType="slide-up"
           features={[
